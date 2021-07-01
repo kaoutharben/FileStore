@@ -17,6 +17,12 @@ function Header() {
       history.push("/login");
     }
   };
+  const price=(e)=>{
+    e.preventDefault();
+    history.push('/price');
+    console.log('hoooooooooo')
+  }
+
   return (
     <div className="header">
       <Link className="link__header" to="/">
@@ -40,19 +46,19 @@ function Header() {
             </div>
           </Link>
           
-          <button className="button" onClick={logInOut}>
+          <button className="button"  onClick={logInOut} >
             Log Out
           </button>
-          <Link className="link__header" to='/price'>
-          <button className="button__pric">Pricing</button>
-          </Link>
+         
+          <button onClick={price} className="button__pric">Pricing</button>
+          
         </div>
       ) : (
         <div className="header_rightMin">
           <button className="button" onClick={logInOut}>
             Log In
           </button>
-          <button className="button__pric">Pricing</button>
+          <button onClick={price}  className="button__pric">Pricing</button>
         </div>
       )}
     </div>
