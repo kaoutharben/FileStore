@@ -1,0 +1,32 @@
+.socialnsc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+  
+    
+}
+
+.login_icon{
+ cursor: pointer;
+ width: 34px;
+}
+
+.container{
+  
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  width: 100%;
+}
+.or{
+  color: rgb(148, 148, 148);
+ 
+}
+.extrem{
+  border-top: 1px rgb(148, 148, 148) solid;
+ height: 0px;
+ width: 100%;
+ margin:4px
+}

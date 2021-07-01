@@ -1,0 +1,29 @@
+.dashboard{
+    display: flex;
+    flex-direction: row;
+
+}
+.sideBar{
+    background-color:rgba(18, 25, 33, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 6vw;
+    color: white;
+    padding-top: 5vh;
+}
+.files__dash{
+    margin-top: 2%;
+    margin-left: 4%;
+    display:flex;
+    flex-grow: 1;
+    flex-basis: 0;;
+    justify-content: flex-start;
+    width : 100%;
+}
+.storage__dash{
+align-items: center;
+color:rgb(42, 171, 223);
+
+}
